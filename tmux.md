@@ -15,8 +15,7 @@
 
 - 新建 session
 
-	tmux (此时名称以数字编号)
-	
+	tmux (此时名称以数字编号)	
 	tmux new -s <session-name>
 
 - 离开 session
@@ -53,7 +52,7 @@
 
 	tmux kill-session -a -t <session_name>
 
-- 关闭所有回话
+- 关闭所有 session
 
 	tmux kill-server
 
