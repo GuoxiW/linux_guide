@@ -4,10 +4,9 @@
 
 1.tmux 安装
 
-	sudo apt install tmux
+    sudo apt install tmux
 
 ---
-
 
 2.tmux 快捷键
 
@@ -15,14 +14,14 @@
 
 - 新建 session
 
-	tmux (此时名称以数字编号)	
-	tmux new -s <session-name>
+    tmux (此时名称以数字编号)	
+    tmux new -s <session-name>
 
 - 离开 session
 
-	tmux detach
+    tmux detach
 	
-	ctrl + b d
+    ctrl + b d
 
 - 查看 session 列表
 
