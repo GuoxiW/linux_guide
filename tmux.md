@@ -122,14 +122,32 @@ ctrl + b o
 - 向上移动 pane
 ```
 tmux swap-pane -U
+ctrl + b ctrl + 0
 ```
 - 向下移动 pane 
 ```
 tmux swap-pane -D
+ctrl + b alt + o
+```
+- 向左移动 pane
+```
+ctrl + b {
+```
+- 向右移动 pane
+```
+ctrl + b }
+```
+- 按照箭头方向调整 pane 大小
+```
+ctrl + b ctrl + 方向键
 ```
 - 关闭当前 pane
 ```
 ctrl + b x
+```
+- 将 window 中的多个 pane 拆分为一个独立的 pane
+```
+ctrl + b !
 ```
 - 放大 pane
 ```
@@ -157,4 +175,12 @@ tmux list-key
 - 列出所有命令
 ```
 tmux list-command
+```
+- 列出当前所有 tmux session 的信息
+```
+tmux info
+```
+- 重新加载当前的 tmux 配置
+```
+tmux source-file ~/.tmux.conf
 ```
