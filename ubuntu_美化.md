@@ -4,7 +4,7 @@
 - 搜索软件 ag
 ```
 sudo apt-get install silversearcher-ag
-
+```
 - 搜索软件 autojump
 ```
 sudo apt install autojump
@@ -40,5 +40,27 @@ sudo vim /etc/passwd
 ```
 sudo apt install fonts-powerline
 ```
+- 安装 oh-my-zsh
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+- 安装 zsh-syntax-highlighting 语法高亮
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+- 安装 zsh-history-substring-search 历史记录命令提示
+```
+git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+```
+- 安装 zsh-autosuggestions 语法历史记录
+```
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+- 安装 zsh-completions 自动补全
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+
 
 
