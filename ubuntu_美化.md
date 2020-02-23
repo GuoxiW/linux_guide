@@ -1,9 +1,21 @@
 ## ubuntu 美化
 
 ### 1.常规软件
+- ubuntu/windows 双系统时间不同步
+```
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+- 搜狗输入法
+```
+sudo apt install fcitx
+sudo dpkg -i sogou*.deb
+```
+> 1.移步到设置-区域和语言，加入汉语。
+> 2.管理已安装的语言，修改键盘输入法系统为 fcitx 。
+> 3.打开所有程序，选择 Fcitx 配置，加号添加搜狗输入法。
 - 搜索软件 ag
 ```
-sudo apt-get install silversearcher-ag
+sudo apt install silversearcher-ag
 ```
 - 搜索软件 autojump
 ```
@@ -12,6 +24,10 @@ sudo apt install autojump
 - 模糊搜索 fzf
 ```
 sudo apt install fzf
+```
+- 树形结构文件夹
+```
+sudo apt install tree
 ```
 ### 2. zsh相关
 - 下载软件 curl 和 wget
@@ -22,7 +38,16 @@ sudo apt install wget
 - 安装 git
 ```
 sudo apt install git
+git config --global user.name "GuoxiW"
+git config --global user.email "guoxiwang1996@gmail.com"
 ```
+```
+cd ~/.ssh/
+ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"
+(github加入后)
+ssh -T git@github.com
+```
+
 - 安装 zsh
 ```
 sudo apt install zsh
@@ -80,6 +105,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 ```
 - 安装代码浏览软件需要的插件
 > https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst 
+
 ```
 sudo apt install \
     gcc make \
@@ -115,4 +141,7 @@ let g:mkdp_path_to_chrome = "/usr/bin/google-chrome"
 ```
 linux_configuration/vim_cpp_tasks.ini    ---->>>>>    ~/.vim/tasks.ini
 ```
-
+- vim 代码补全 coc.nvim 所需要的额外安装
+```
+:CocInstall coc-snippets 
+```
