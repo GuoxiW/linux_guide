@@ -90,6 +90,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 sudo apt install tmux
 ```
+- 安装 Oh My Tmux
+```
+cd
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
+```
 - 注释掉 ctrl + b c 新开一个 session 的快捷键（默认是新开一个 window ）
 ```
 vim ~/.tmux.conf
