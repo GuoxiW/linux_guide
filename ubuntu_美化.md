@@ -10,9 +10,11 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 sudo apt install fcitx
 sudo dpkg -i sogou*.deb
 ```
-> 1.移步到设置-区域和语言，加入汉语。
-> 2.管理已安装的语言，修改键盘输入法系统为 fcitx 。
-> 3.打开所有程序，选择 Fcitx 配置，加号添加搜狗输入法。
+> 1. 移步到设置-区域和语言，加入汉语。
+
+> 2. 管理已安装的语言，修改键盘输入法系统为 fcitx 。
+
+> 3. 打开所有程序，选择 Fcitx 配置，加号添加搜狗输入法。
 - 网易云音乐
 ```
 https://music.163.com/#/download
@@ -21,11 +23,15 @@ https://music.163.com/#/download
 ```
 https://vpn.nwpu.edu.cn
 ```
-登录后显示下载页面
+> 登录后显示下载页面
 - 文献阅读软件 Mendeley
 ```
 https://www.mendeley.com/download-desktop-new/#download
 ```
+> 1. 选择 Tools -> Options -> Connection
+> 2. Proxy type 为 HTTP Proxy
+> 3. Server 127.0.0.1
+> 4. Port 12333
 - 搜索软件 ag
 ```
 sudo apt install silversearcher-ag
