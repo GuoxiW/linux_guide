@@ -11,9 +11,7 @@ sudo apt install fcitx
 sudo dpkg -i sogou*.deb
 ```
 > 1. 移步到设置-区域和语言，加入汉语。
-
 > 2. 管理已安装的语言，修改键盘输入法系统为 fcitx 。
-
 > 3. 打开所有程序，选择 Fcitx 配置，加号添加搜狗输入法。
 - 网易云音乐
 ```
