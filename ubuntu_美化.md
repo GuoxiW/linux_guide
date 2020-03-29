@@ -1,6 +1,10 @@
 ## ubuntu 美化
 
 ### 1.常规软件
+- wsl 要先安装字体 DejaVu Sans Mono for Powerline.ttf
+```
+https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu
+```
 - ubuntu/windows 双系统时间不同步
 ```
 timedatectl set-local-rtc 1 --adjust-system-clock
