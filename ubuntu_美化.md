@@ -106,6 +106,11 @@ git clone git://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-
 ```
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
 ```
+- 替换 zshrc
+```
+vim ~/.zshrc
+```
+> https://github.com/GuoxiW/linux_configuration/blob/master/.zshrc
 ### 3. tmux 相关
 - 安装 tmux
 ```
