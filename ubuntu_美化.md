@@ -73,6 +73,10 @@ sudo apt install zsh
 ```
 chsh -s /bin/zsh/
 ```
+or
+```
+chsh -s $(which zsh)
+```
 - 配置密码文件，解决chsh: PAM认证失败的问题
 ```
 sudo vim /etc/passwd
