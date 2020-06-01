@@ -33,26 +33,38 @@ https://developer.aliyun.com/mirror/ubuntu?spm=a2c6h.13651102.0.0.53322f70iuzkz2
 
 ---
 
-## 3.不要用pppoeconf拨号上网，使用拨号。
-参考链接：
+## 3.安装 ifconfig 并关闭多余的网卡。
+```
+sudo apt install net-tools
+```
+```
+ifconfig
+ifconfig eno2 down
+```
+
+## 4.pppoeconf 拨号上网，也可以使用拨号。
+```
+sudo apt install pppoeconf
+```
+拨号参考链接：
 
 ```
 https://jingyan.baidu.com/article/59a015e37dbea2f79588655c.html
 ```
 
-## 4.安装openssh-server
+## 5.安装openssh-server
 
 	sudo apt install openssh-server
 	sudo update-rc.d ssh defaults
 
-## 5.开启屏幕共享
+## 6.开启屏幕共享
 参考链接：
 
 ```
 https://blog.csdn.net/weixin_33804990/article/details/92484727
 ```
 
-## 6.翻墙
+## 7.翻墙
 参考链接：
 
 
