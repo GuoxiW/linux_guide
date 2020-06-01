@@ -73,7 +73,15 @@ ssh -T git@github.com
 ```
 sudo apt install zsh
 ````
-- 切换 zsh 为默认 shell
+- 安装 oh-my-zsh 的字体
+```
+sudo apt install fonts-powerline
+```
+- 安装 oh-my-zsh
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+- (上一步通常可以)切换 zsh 为默认 shell
 ```
 chsh -s /bin/zsh/
 ```
@@ -86,14 +94,6 @@ chsh -s $(which zsh)
 sudo vim /etc/passwd
 ```
 > 把第一行的/bin/bash改成/bin/zsh，这个是root用户的。
-- 安装 oh-my-zsh 的字体
-```
-sudo apt install fonts-powerline
-```
-- 安装 oh-my-zsh
-```
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
 - 安装 zsh-syntax-highlighting 语法高亮
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
