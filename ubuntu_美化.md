@@ -199,7 +199,7 @@ let g:mkdp_path_to_chrome = "/usr/bin/google-chrome"
 
 - 设置 vim 运行 c++ 需要的配置
 ```
-linux_configuration/vim_cpp_tasks.ini    ---->>>>>    ~/.vim/tasks.ini
+ cp linux_configuration/vim_cpp_tasks.ini ~/.vim/tasks.ini
 ```
 - vim 代码补全 coc.nvim 所需要的额外安装
 ```
