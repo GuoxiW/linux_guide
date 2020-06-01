@@ -166,7 +166,9 @@ sudo apt install \
 ```
 
 ```
+cd Documents
 git clone https://github.com/universal-ctags/ctags
+cd ctags
 ```
 
 ```
