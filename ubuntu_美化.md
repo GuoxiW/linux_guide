@@ -5,8 +5,8 @@
 ```
 https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu
 ```
-> 1.windows terminal 选择设置
-> 2."profiles"->"list"->{}中加入
+> 1. windows terminal 选择设置
+> 2. "profiles"->"list"->{}中加入
 ```
 ,
 "fontFace":"DejaVu Sans Mono for Powerline",
