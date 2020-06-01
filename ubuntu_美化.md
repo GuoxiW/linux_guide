@@ -101,6 +101,10 @@ chsh -s $(which zsh)
 sudo vim /etc/passwd
 ```
 > 把第一行的/bin/bash改成/bin/zsh，这个是root用户的。
+- 安装powerlevel10k主题
+```
+git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+```
 - 安装 zsh-syntax-highlighting 语法高亮
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
