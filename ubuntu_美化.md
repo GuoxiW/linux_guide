@@ -175,7 +175,7 @@ cd ctags
 ./autogen.sh
 ./configure --prefix=/usr/local #/where/you/want # defaults to /usr/local
 make
-make install # may require extra privileges depending on where to install
+sudo make install # may require extra privileges depending on where to install
 ```
 - 安装 vim 代码补全的插件
 ```
