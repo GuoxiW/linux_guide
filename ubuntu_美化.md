@@ -182,7 +182,16 @@ sudo make install # may require extra privileges depending on where to install
 sudo apt-get install python3-pip
 pip3 install --user pynvim -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-
+- 复制.vimrc
+```
+cd ~/Documents
+git clone https://github.com/GuoxiW/linux_configuration
+cp linux_configuration/.vimrc ~/.vimrc
+```
+- vim-plug安装插件
+```
+:PlugInstall
+```
 - vim markdown 的浏览器配置
 ```
 let g:mkdp_path_to_chrome = "/usr/bin/google-chrome" 
