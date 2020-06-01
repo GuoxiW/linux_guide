@@ -9,6 +9,10 @@ https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubun
 ```
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono
 ```
+Mobaxterm修改字体
+```
+https://blog.csdn.net/qingliang4321/article/details/104040593
+```
 > 1. windows terminal 选择设置
 > 2. "profiles"->"list"->{}中加入
 ```
