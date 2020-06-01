@@ -180,7 +180,7 @@ sudo make install # may require extra privileges depending on where to install
 - 安装 vim 代码补全的插件
 ```
 sudo apt-get install python3-pip
-pip3 install --user pynvim 
+pip3 install --user pynvim -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 - vim markdown 的浏览器配置
