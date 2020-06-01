@@ -123,9 +123,11 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zs
 ```
 - 替换 zshrc
 ```
-vim ~/.zshrc
+cd Documents
+git clone https://github.com/GuoxiW/linux_configuration
+cp linux_configuration/.zshrc ~/.zshrc
 ```
-> https://github.com/GuoxiW/linux_configuration/blob/master/.zshrc
+
 ### 3. tmux 相关
 - 安装 tmux
 ```
