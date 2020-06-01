@@ -5,6 +5,10 @@
 ```
 https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu
 ```
+参考
+```
+https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono
+```
 > 1. windows terminal 选择设置
 > 2. "profiles"->"list"->{}中加入
 ```
