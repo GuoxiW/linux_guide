@@ -10,8 +10,11 @@
 https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
 ```
 ~~参考~~
+
 ~~```https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono```~~
+
 Mobaxterm修改字体
+
 ```
 https://blog.csdn.net/qingliang4321/article/details/104040593
 ```
@@ -99,14 +102,12 @@ sudo apt install fonts-powerline
 ```
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-- (上一步通常可以)切换 zsh 为默认 shell
-```
-chsh -s /bin/zsh/
-```
-or
-```
-chsh -s $(which zsh)
-```
+~~- (上一步通常可以)切换 zsh 为默认 shell~~
+
+~~```chsh -s /bin/zsh/```~~
+
+~~or~~
+~~```chsh -s $(which zsh)```~~
 - 配置密码文件，解决chsh: PAM认证失败的问题
 ```
 sudo vim /etc/passwd
