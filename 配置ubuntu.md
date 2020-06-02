@@ -15,6 +15,7 @@ https://developer.aliyun.com/mirror/ubuntu?spm=a2c6h.13651102.0.0.53322f70iuzkz2
 	sudo gedit /etc/apt/sources.list
 
 ---
+Ubuntu 18.04
 
 	deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
 	deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
@@ -32,6 +33,22 @@ https://developer.aliyun.com/mirror/ubuntu?spm=a2c6h.13651102.0.0.53322f70iuzkz2
 	deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 
 ---
+Ubuntu 20.04
+	deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+
+	deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+
+	deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+	
+	deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+
+	deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+	deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+---
 
 ## 3.安装 ifconfig 并关闭多余的网卡。
 ```
@@ -42,15 +59,14 @@ ifconfig
 ifconfig eno2 down
 ```
 
-## 4.pppoeconf 拨号上网，也可以使用拨号。
+## 4. 推荐pppoeconf 拨号上网，校园网不容易掉线~~也可以使用拨号。~~
 ```
 sudo apt install pppoeconf
 ```
-拨号参考链接：
 
-```
-https://jingyan.baidu.com/article/59a015e37dbea2f79588655c.html
-```
+~~拨号参考链接：~~
+
+~~```https://jingyan.baidu.com/article/59a015e37dbea2f79588655c.html```~~
 
 ## 5.安装openssh-server
 
