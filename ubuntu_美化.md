@@ -141,7 +141,12 @@ cd Documents
 git clone https://github.com/GuoxiW/linux_configuration
 cp linux_configuration/.zshrc ~/.zshrc
 ```
-
+- 解决 windows terminal 进 wsl 时目录不是 home，在`/.zshrc`最后加入 
+```
+if [ `pwd` = "/mnt/c/Users/wang9" ]; then
+cd ~
+fi
+```
 ### 3. tmux 相关
 - 安装 tmux
 ```
@@ -204,7 +209,7 @@ cd ~/Documents
 git clone https://github.com/GuoxiW/linux_configuration
 cp linux_configuration/.vimrc ~/.vimrc
 ```
-- vim-plug安装插件
+- vim-plug安装插件，打开`vim`
 ```
 :PlugInstall
 ```
