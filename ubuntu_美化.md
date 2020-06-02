@@ -5,6 +5,10 @@
 ```
 https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu
 ```
+- 安装powerlevel10k字体
+```
+https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
+```
 参考
 ```
 https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono
@@ -13,12 +17,13 @@ Mobaxterm修改字体
 ```
 https://blog.csdn.net/qingliang4321/article/details/104040593
 ```
+terminal type 选择 xterm-256cloor
 > 1. windows terminal 选择设置
 > 2. "profiles"->"list"->{}中加入
 ```
 ,
-"fontFace":"DejaVu Sans Mono for Powerline",
-"fontSize":14
+"fontFace":"MesloLGS NF",
+"fontSize":12
 ```
 - ubuntu/windows 双系统时间不同步
 ```
