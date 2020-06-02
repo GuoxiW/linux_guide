@@ -3,18 +3,14 @@
 ### 1.常规软件
 ~~- wsl 要先安装字体 DejaVu Sans Mono for Powerline.ttf~~
 
-```
-~~https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu~~
-```
+~~```https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu```~~
 
 - 安装powerlevel10k字体
 ```
 https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
 ```
-参考
-```
-https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono
-```
+~~参考~~
+~~```https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono```~~
 Mobaxterm修改字体
 ```
 https://blog.csdn.net/qingliang4321/article/details/104040593
