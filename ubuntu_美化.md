@@ -1,10 +1,12 @@
 ## ubuntu 美化
 
 ### 1.常规软件
-- wsl 要先安装字体 DejaVu Sans Mono for Powerline.ttf
+~~- wsl 要先安装字体 DejaVu Sans Mono for Powerline.ttf~~
+<del>
 ```
 https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu
 ```
+</del>
 - 安装powerlevel10k字体
 ```
 https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
