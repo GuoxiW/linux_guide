@@ -107,7 +107,9 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ~~```chsh -s /bin/zsh/```~~
 
 ~~or~~
+
 ~~```chsh -s $(which zsh)```~~
+
 - 配置密码文件，解决chsh: PAM认证失败的问题
 ```
 sudo vim /etc/passwd
@@ -206,6 +208,14 @@ cp linux_configuration/.vimrc ~/.vimrc
 ```
 :PlugInstall
 ```
+- vim-hybrid 主题本身由 vim-plug 安装，如果没成功
+```
+cd Documents
+git clone https://github.com/w0ng/vim-hybrid
+mkdir ~/.vim/colors/
+cp vim-hybrid/colors/hybrid.vim ~/.vim/colors/hybrid.vim
+```
+
 - vim markdown 的浏览器配置
 ```
 let g:mkdp_path_to_chrome = "/usr/bin/google-chrome" 
