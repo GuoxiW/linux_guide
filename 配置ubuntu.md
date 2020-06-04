@@ -92,11 +92,11 @@ lcp-echo-interval 3
 
 - windows 下生成密钥
 	
-	ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"
+`ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"`
 
 - 在 Ubuntu 开启自动认证功能
 
-	sudo vim /etc/ssh/sshd_config
+`sudo vim /etc/ssh/sshd_config`
 
 去掉注释
 
@@ -106,9 +106,9 @@ lcp-echo-interval 3
 
 - Ubuntu 中加入 windows 公钥
 
-	sudo vim ~/.ssh/authorized_keys # 复制本地的 C:\Users\wang9\.ssh\id_rsa.pub
+`sudo vim ~/.ssh/authorized_keys # 复制本地的 C:\Users\wang9\.ssh\id_rsa.pub`
 
-- windows 配置自动认证，在 C:\Users\wang9\.ssh\ 下新建 config
+- windows 配置自动认证，在`C:\Users\wang9\.ssh\`下新建 config
 	
 	Host b
 	User guoxi
@@ -116,7 +116,8 @@ lcp-echo-interval 3
 	IdentityFile C:\Users\wang9\.ssh\id_rsa
 
 - 以后
-	ssh b
+
+`ssh b`
 
 ## 8.开启屏幕共享
 参考链接：
