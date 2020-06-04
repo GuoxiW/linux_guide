@@ -19,7 +19,7 @@ https://blog.csdn.net/qingliang4321/article/details/104040593
 ```
 > terminal type 选择 xterm-256color
 
-- windows terminal 选择设置->"profiles"->"list"->{}中加入
+- (windows)windows terminal 选择设置->"profiles"->"list"->{}中加入
 ```
 ,
 "fontFace":"MesloLGS NF",
@@ -84,6 +84,7 @@ git config --global user.name "GuoxiW"
 git config --global user.email "guoxiwang1996@gmail.com"
 ```
 ```
+mkdir ~/.ssh/
 cd ~/.ssh/
 ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"
 (github加入后)
