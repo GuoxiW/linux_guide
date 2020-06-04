@@ -69,7 +69,9 @@ sudo apt install pppoeconf
 pppoe 网络不稳定
 ```
 sudo vi /etc/ppp/options
+```
 
+```
 lcp-echo-failure 400
 lcp-echo-interval 3
 ```
@@ -151,13 +153,17 @@ sudo apt install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-ser
 
 ### 安装软件
 
-`sudo dpkg -i  *.deb`
+```
+sudo dpkg -i  *.deb
+```
 
 ### 尝试运行软件
 
 终端输入
 
-`electron-ssr`
+```
+electron-ssr
+```
 
 看有没有什么报错，如果没有，就在软件里面设置订阅地址看能否更新。<br>
 因为终端信息会泄露我的IP，密码，在这里我就不放内容。<br>
