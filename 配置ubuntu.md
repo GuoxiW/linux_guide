@@ -2,7 +2,11 @@
 
 ## 1.ubuntu不要最小安装，容易缺失文件。
 
-## 2.换源
+## 2.如果是显卡输出显示信号，可能会进入循环登录问题（不能登陆图形界面）
+```
+control + alt + F3
+```
+## 3.换源
 参考链接：
 
 ```
@@ -51,7 +55,7 @@ Ubuntu 20.04
 	deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 ---
 
-## 3.安装 ifconfig 并关闭多余的网卡。
+## 4.安装 ifconfig 并关闭多余的网卡。
 ```
 sudo apt install net-tools
 ```
@@ -60,28 +64,36 @@ ifconfig
 ifconfig eno2 down
 ```
 
-## 4. 推荐pppoeconf 拨号上网，校园网不容易掉线~~也可以使用拨号。~~
+## 5. 推荐 pppoeconf 拨号上网，校园网不容易掉线~~也可以使用拨号。~~
 ```
 sudo apt install pppoeconf
+```
+
+pppoe 网络不稳定
+```
+sudo vi /etc/ppp/options
+
+lcp-echo-failure 400
+lcp-echo-interval 3
 ```
 
 ~~拨号参考链接：~~
 
 ~~```https://jingyan.baidu.com/article/59a015e37dbea2f79588655c.html```~~
 
-## 5.安装openssh-server
+## 6.安装openssh-server
 
 	sudo apt install openssh-server
 	sudo update-rc.d ssh defaults
 
-## 6.开启屏幕共享
+## 7.开启屏幕共享
 参考链接：
 
 ```
 https://blog.csdn.net/weixin_33804990/article/details/92484727
 ```
 
-## 7.翻墙
+## 8.翻墙
 参考链接：
 
 
