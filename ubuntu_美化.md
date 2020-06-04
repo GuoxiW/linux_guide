@@ -1,31 +1,31 @@
 ## ubuntu 美化
 
 ### 1.常规软件
-~~- wsl 要先安装字体 DejaVu Sans Mono for Powerline.ttf~~
+~~- (windows)先安装字体 DejaVu Sans Mono for Powerline.ttf~~
 
 ~~```https://github.com/yanglr/WindowsDevTools/tree/master/awosomeTerminal/fonts-Ubuntu```~~
 
-- 安装powerlevel10k字体
+- (windows)安装powerlevel10k字体
 ```
 https://github.com/romkatv/powerlevel10k#meslo-nerd-font-patched-for-powerlevel10k
 ```
-~~参考~~
 
 ~~```https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono```~~
 
-Mobaxterm修改字体
+- (windows)Mobaxterm修改字体
 
 ```
 https://blog.csdn.net/qingliang4321/article/details/104040593
 ```
-terminal type 选择 xterm-256cloor
-> 1. windows terminal 选择设置
-> 2. "profiles"->"list"->{}中加入
+> terminal type 选择 xterm-256color
+
+- windows terminal 选择设置->"profiles"->"list"->{}中加入
 ```
 ,
 "fontFace":"MesloLGS NF",
 "fontSize":12
 ```
+
 - ubuntu/windows 双系统时间不同步
 ```
 timedatectl set-local-rtc 1 --adjust-system-clock
