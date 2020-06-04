@@ -1,21 +1,16 @@
-# 配置ubuntu
+# 配置 Ubuntu
 
-## 1.ubuntu不要最小安装，容易缺失文件；
+## 1.Ubuntu 不要最小安装，容易缺失文件；
 
 ## 2.不要勾选自动登录，会出现循环登陆的现象，如果出现非显卡原因的循环登录
 > https://www.cnblogs.com/tengge/p/12774341.html
 ```
-control + alt + F3
+Control + Alt + F3
 ```
 
 ## 3.换源
-参考链接：
 
-```
-https://developer.aliyun.com/mirror/ubuntu?spm=a2c6h.13651102.0.0.53322f70iuzkz2
-```
-
-具体命令：
+> https://developer.aliyun.com/mirror/ubuntu?spm=a2c6h.13651102.0.0.53322f70iuzkz2
 
 	sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 	sudo gedit /etc/apt/sources.list
@@ -81,22 +76,22 @@ lcp-echo-interval 3
 
 ~~拨号参考链接：~~
 
-~~```https://jingyan.baidu.com/article/59a015e37dbea2f79588655c.html```~~
+~~> https://jingyan.baidu.com/article/59a015e37dbea2f79588655c.html~~
 
-## 6.安装openssh-server
+## 6.安装 openssh-server
 
 	sudo apt install openssh-server
 	sudo update-rc.d ssh defaults
 
 ## 7.ssh免密码登录
 
-- windows 下生成密钥
+- Windows 下生成密钥
 	
-`ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"`
+```ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"```
 
 - 在 Ubuntu 开启自动认证功能
 
-`sudo vim /etc/ssh/sshd_config`
+```sudo vim /etc/ssh/sshd_config```
 
 去掉注释
 
@@ -104,27 +99,25 @@ lcp-echo-interval 3
 	PubkeyAuthentication yes 
 	AuthorizedKeysFile .ssh/authorized_keys
 
-- Ubuntu 中加入 windows 公钥
+- Ubuntu 中加入 Windows 公钥
 
-`sudo vim ~/.ssh/authorized_keys # 复制本地的 C:\Users\wang9\.ssh\id_rsa.pub`
+```sudo vim ~/.ssh/authorized_keys # 复制本地的 C:\Users\wang9\.ssh\id_rsa.pub```
 
-- windows 配置自动认证，在`C:\Users\wang9\.ssh\`下新建 config
-	
-	Host b
-	User guoxi
-	Hostname 10.69.12.250
-	IdentityFile C:\Users\wang9\.ssh\id_rsa
+- Windows 配置自动认证，在`C:\Users\wang9\.ssh\`下新建 `config`
+```	
+Host b
+User guoxi
+Hostname 10.69.12.250
+IdentityFile C:\Users\wang9\.ssh\id_rsa
+```
+- 以后使用时
 
-- 以后
-
-`ssh b`
+```ssh b```
 
 ## 8.开启屏幕共享
-参考链接：
 
-```
-https://blog.csdn.net/weixin_33804990/article/details/92484727
-```
+ > https://blog.csdn.net/weixin_33804990/article/details/92484727
+
 
 ## 9.更新显卡驱动解决循环登陆问题
 ```
@@ -141,12 +134,8 @@ sudo reboot
 ```
 
 ## 10.翻墙
-参考链接：
 
-
-# Debian系列——Ubuntu18.04为例
-
-## 安装依赖
+### 安装依赖
 
 `sudo apt install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-service libappindicator1`
 
