@@ -93,7 +93,21 @@ lcp-echo-interval 3
 https://blog.csdn.net/weixin_33804990/article/details/92484727
 ```
 
-## 8.翻墙
+## 8.更新显卡驱动解决循环登陆问题
+```
+#  关闭用户图形界面
+sudo systemctl set-default multi-user.target
+sudo reboot
+
+# 安装显卡驱动
+sudo bash N..
+
+# 开启用户图形界面
+sudo systemctl set-default graphical.target
+sudo reboot
+```
+
+## 9.翻墙
 参考链接：
 
 
