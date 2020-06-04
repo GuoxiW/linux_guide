@@ -87,11 +87,15 @@ lcp-echo-interval 3
 
 - Windows 下生成密钥
 	
-```ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"```
+```
+ssh-keygen -t rsa -C "guoxiwang1996@gmail.com"
+```
 
 - 在 Ubuntu 开启自动认证功能
 
-```sudo vim /etc/ssh/sshd_config```
+```
+sudo vim /etc/ssh/sshd_config
+```
 
 去掉注释
 
@@ -101,7 +105,9 @@ lcp-echo-interval 3
 
 - Ubuntu 中加入 Windows 公钥
 
-```sudo vim ~/.ssh/authorized_keys # 复制本地的 C:\Users\wang9\.ssh\id_rsa.pub```
+```
+sudo vim ~/.ssh/authorized_keys # 复制本地的 C:\Users\wang9\.ssh\id_rsa.pub
+```
 
 - Windows 配置自动认证，在`C:\Users\wang9\.ssh\`下新建 `config`
 ```	
@@ -112,7 +118,9 @@ IdentityFile C:\Users\wang9\.ssh\id_rsa
 ```
 - 以后使用时
 
-```ssh b```
+```
+ssh b
+```
 
 ## 8.开启屏幕共享
 
@@ -137,12 +145,9 @@ sudo reboot
 
 ### 安装依赖
 
-`sudo apt install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-service libappindicator1`
-
-可选依赖：
-- `sudo apt install libssl-dev`
-- `sudo apt install libsodium-dev`
-如果软件报错，请安装可选依赖
+```
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-service libappindicator1 libssl-dev libsodium-dev python
+```
 
 ### 安装软件
 
@@ -153,10 +158,6 @@ sudo reboot
 终端输入
 
 `electron-ssr`
-
-1.系统需要安装Python2.7，一般系统自带，我是最简化安装没有Python环境，软件运行报错。安装Python之后解决
-
-`sudo apt install python`
 
 看有没有什么报错，如果没有，就在软件里面设置订阅地址看能否更新。<br>
 因为终端信息会泄露我的IP，密码，在这里我就不放内容。<br>
