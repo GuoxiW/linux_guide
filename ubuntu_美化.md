@@ -71,6 +71,10 @@ sudo apt install fzf
 ```
 sudo apt install tree
 ```
+- 进程监控软件 htop
+```
+sudo apt install htop
+```
 ### 2. zsh相关
 - 下载软件 curl 和 wget
 ```
