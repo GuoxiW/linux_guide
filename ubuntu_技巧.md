@@ -17,3 +17,5 @@ unset https_proxy
 sudo electron-ssr
 pkill electron-ssr
 ```
+
+## 3.curl 下载不下来时换成 wget
