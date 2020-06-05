@@ -138,7 +138,7 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zs
 ```
 - 替换 zshrc
 ```
-cd Documents
+cd ~/Documents
 git clone https://github.com/GuoxiW/linux_configuration
 cp linux_configuration/.zshrc ~/.zshrc
 cp linux_configuration/.p10k.zsh ~/.p10k.zsh
@@ -201,7 +201,7 @@ sudo apt install \
 ```
 
 ```
-cd Documents
+cd ~/Documents
 git clone https://github.com/universal-ctags/ctags
 cd ctags
 ```
@@ -229,7 +229,7 @@ cp linux_configuration/.vimrc ~/.vimrc
 ```
 - vim-hybrid 主题本身由 vim-plug 安装，如果没成功
 ```
-cd Documents
+cd ~/Documents
 git clone https://github.com/w0ng/vim-hybrid
 mkdir ~/.vim/colors/
 cp vim-hybrid/colors/hybrid.vim ~/.vim/colors/hybrid.vim
@@ -242,7 +242,8 @@ let g:mkdp_path_to_chrome = "/usr/bin/google-chrome"
 
 - 设置 vim 运行 c++ 需要的配置
 ```
- cp linux_configuration/vim_cpp_tasks.ini ~/.vim/tasks.ini
+cd ~/Documents
+cp linux_configuration/vim_cpp_tasks.ini ~/.vim/tasks.ini
 ```
 - vim 代码补全 coc.nvim 所需要的额外安装
 ```
