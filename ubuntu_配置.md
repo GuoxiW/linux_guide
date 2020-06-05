@@ -1,4 +1,4 @@
-# 配置 Ubuntu
+# Ubuntu 配置
 
 ## 1.Ubuntu 不要最小安装，容易缺失文件；
 
