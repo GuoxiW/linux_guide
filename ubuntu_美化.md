@@ -173,6 +173,10 @@ cp .tmux/.tmux.conf.local .
 ```
 vim ~/.tmux.conf
 ```
+- 如果此时 tmux 不能正常显示，可能是因为有正在运行的 tmux session
+```
+tmux kill-server
+```
 ### 4. vim 相关
 - 安装 vim
 ```
