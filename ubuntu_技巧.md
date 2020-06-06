@@ -64,3 +64,8 @@ sudo vim /etc/docker/daemon.json
   "registry-mirrors": ["http://hub-mirror.c.163.com"]
 }
 ```
+## 8.翻墙
+1. 服务器端全局代理。
+2. 设置中 proxy 选择 auto。
+3. 浏览器测试是否成功。
+4. 测试后远程重新打开 SSH。
