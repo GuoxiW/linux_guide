@@ -123,11 +123,13 @@ IdentityFile C:\Users\wang9\.ssh\id_rsa
 ```
 ssh b
 ```
+- vscode 安装 Remote SSH进行开发
 
 ## 8.开启屏幕共享
 
  > https://blog.csdn.net/weixin_33804990/article/details/92484727
 
+Ubuntu 20.04 不能识别 pppoe 拨号上网，所以不能打开屏幕共享，此时通过手机共享网络后打开。
 
 ## 9.更新显卡驱动解决循环登陆问题
 ```
