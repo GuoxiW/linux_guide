@@ -53,3 +53,14 @@ export GO111MODULE=on
 # 配置 GOPROXY 环境变量
 export GOPROXY=https://goproxy.io
 ```
+
+## 7.docker 镜像设置
+> https://lug.ustc.edu.cn/wiki/mirrors/help/docker
+
+```
+sudo vim /etc/docker/daemon.json
+# 网易的速度快
+{
+  "registry-mirrors": ["http://hub-mirror.c.163.com"]
+}
+```
