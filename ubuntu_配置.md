@@ -249,3 +249,22 @@ sudo vim /etc/hosts
 151.101.76.133 avatars8.githubusercontent.com
 # GitHub End
 ```
+
+## 12.解决 AWS 总是很快断开连接
+```
+sudo vim /etc/ssh/sshd_config
+```
+去掉注释并修改
+```
+# ClientAliveInterval 0
+# ClientAliveCountMax 3
+```
+```
+# 客户端每隔多少秒向服务发送一个心跳数据
+ClientAliveInterval 30
+# 客户端多少秒没有相应，服务器自动断掉连接
+ClientAliveCountMax 1800
+```
+```
+sudo service sshd restart
+```
