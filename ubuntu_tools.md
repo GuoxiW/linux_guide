@@ -1,4 +1,9 @@
 ## ubuntu 美化
+```
+# apt 软件一步安装
+sudo apt install silversearcher-ag autojump fzf tree htop curl wget git zsh fonts-powerline tmux vim gcc make pkg-config autoconf automake python3-docutils libseccomp-dev libjansson-dev libyaml-dev libxml2-dev python3-pip
+```
+
 
 ### 1. 常规软件
 ~~- (windows)先安装字体 DejaVu Sans Mono for Powerline.ttf~~
