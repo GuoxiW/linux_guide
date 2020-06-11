@@ -268,3 +268,8 @@ ClientAliveCountMax 1800
 ```
 sudo service sshd restart
 ```
+
+## 13. `AWS` 中设置账户密码
+```
+sudo passwd ubuntu
+```
