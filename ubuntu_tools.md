@@ -159,6 +159,10 @@ if [ `pwd` = "/mnt/c/Users/wang9" ]; then
 cd ~
 fi
 ```
+- (如果是 `aws` )更改 `ZSH` 路径
+```
+export ZSH="/home/ubuntu/.oh-my-zsh"
+```
 - 定制 `powerlevel10k`
 ```
 source ~/.zshrc
