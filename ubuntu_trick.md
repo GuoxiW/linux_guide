@@ -73,3 +73,10 @@ sudo vim /etc/docker/daemon.json
 2. 设置中 `proxy` 选择 `auto`。
 3. 浏览器测试是否成功。
 4. 测试后远程重新打开 `SSH` 。
+
+
+## 9. `vim`强制保存
+```
+:w !sudo tee %
+:q!
+```
