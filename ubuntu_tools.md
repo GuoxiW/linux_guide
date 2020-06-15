@@ -204,14 +204,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 > https://github.com/universal-ctags/ctags/blob/master/docs/autotools.rst 
 
 ```
-sudo apt install \
-    gcc make \
-    pkg-config autoconf automake \
-    python3-docutils \
-    libseccomp-dev \
-    libjansson-dev \
-    libyaml-dev \
-    libxml2-dev
+sudo apt install gcc make pkg-config autoconf automake python3-docutils libseccomp-dev libjansson-dev libyaml-dev libxml2-dev
 ```
 
 ```
@@ -248,7 +241,11 @@ git clone https://github.com/w0ng/vim-hybrid
 mkdir ~/.vim/colors/
 cp vim-hybrid/colors/hybrid.vim ~/.vim/colors/hybrid.vim
 ```
-
+- `coc.nvim` 需要的 `node.js`
+```
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 - `vim markdown` 的浏览器配置
 ```
 let g:mkdp_path_to_chrome = "/usr/bin/google-chrome" 
