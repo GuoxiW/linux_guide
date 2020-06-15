@@ -273,3 +273,20 @@ sudo service sshd restart
 ```
 sudo passwd ubuntu
 ```
+## 14. 阿里云中新建账户 `guoxi` 并给与 `sudo` 权限
+```
+sudo adduser guoxi
+```
+```
+sudo vim /etc/sudoers
+```
+```
+# root 之后添加
+root    ALL=(ALL:ALL) ALL
+guoxi   ALL=(ALL:ALL) ALL
+```
+```
+# 如果不能保存
+:w !sudo tee %
+:q!
+```
