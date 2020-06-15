@@ -72,6 +72,11 @@ sudo apt install autojump
 ```
 sudo apt install fzf
 ```
+```
+# 若安装失败
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
 - 树形结构文件夹
 ```
 sudo apt install tree
