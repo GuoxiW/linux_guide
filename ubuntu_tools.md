@@ -260,6 +260,12 @@ cp linux_configuration/vim_cpp_tasks.ini ~/.vim/tasks.ini
 ```
 :CocInstall coc-snippets 
 ```
+- `vim` 版本更新
+```
+sudo add-apt-repository ppa:jonathonf/vim
+sudo apt-get update
+sudo apt-get install vim
+```
 ### 5. 字体美化(放大)
 - 在 `terminal` 中选择 `preferences` 
 - 更改字体为 `Source Code Pro for Powerline Medium` ,　字号为 `20` 
