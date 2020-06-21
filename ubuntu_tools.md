@@ -337,3 +337,20 @@ sudo vim /etc/docker/daemon.json
 ```
 sudo docker rmi $(sudo docker images -a -q)
 ```
+
+### 7. 安装 go
+1. 下载软件包
+> https://golang.org/dl/
+
+2. 解压
+```
+sudo tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
+```
+
+3. 加入 PATH
+```
+sudo vim /etc/profile
+```
+```
+export PATH=$PATH:/usr/local/go/bin
+```
