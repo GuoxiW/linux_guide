@@ -354,3 +354,23 @@ sudo vim /etc/profile
 ```
 export PATH=$PATH:/usr/local/go/bin
 ```
+
+### 8. 安装 Mysql
+> https://blog.csdn.net/qq_41420747/article/details/96706274
+1. 安装 Mysql 
+```
+# ETDB 是 Mysql 5.7.21 Ubuntu 18.04的默认版本
+# 用 wsl 安装会出现问题。
+sudo apt install mysql-server
+```
+
+2. 配置 Mysql
+```
+sudo mysql -uroot -p
+```
+```
+CREATE USER 'guoxi'@'%' IDENTIFIED BY '123456';
+flush privileges;
+grant all on *.* to 'guoxi'@'%';
+flush privileges;
+```
