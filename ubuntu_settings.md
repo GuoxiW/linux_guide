@@ -290,3 +290,9 @@ guoxi   ALL=(ALL:ALL) ALL
 :w !sudo tee %
 :q!
 ```
+
+## 15. VMware 虚拟机驱动
+```
+sudo apt install open-vm-tools
+sudo apt install open-vm-tools-desktop
+```
