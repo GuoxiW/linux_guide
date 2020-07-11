@@ -153,12 +153,13 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zs
 ```
 - 替换 `.zshrc`
 ```
+mkdir ~/Documents
 cd ~/Documents
 git clone https://github.com/GuoxiW/linux_configuration
 cp linux_configuration/.zshrc ~/.zshrc
 cp linux_configuration/.p10k.zsh ~/.p10k.zsh
 ```
-- (如果不是 `wsl` 就注释掉)解决 `windows terminal` 进 `wsl` 时目录不是 `/home`，在 `/.zshrc` 最后加入 
+- (如果不是 `wsl` 就注释掉)解决 `windows terminal` 进 `wsl` 时目录不是 `/home`，在 `~/.zshrc` 最后加入 
 ```
 if [ `pwd` = "/mnt/c/Users/wang9" ]; then
 cd ~
