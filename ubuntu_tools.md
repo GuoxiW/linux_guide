@@ -276,6 +276,9 @@ sudo apt-get install vim
 - ubuntu 18.04 中 `viminfo` 报错
 ```
 mkdir -p ~/.vim/files/info
+```
+```
+vim ~/.vimrc
 set viminfo=%,<800,'10,/50,:100,h,f0,n~/.vim/files/info/viminfo
 ```
 
