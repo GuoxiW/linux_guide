@@ -250,7 +250,7 @@ cp vim-hybrid/colors/hybrid.vim ~/.vim/colors/hybrid.vim
 - `coc.nvim` 需要的 `node.js`
 ```
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs npm
 ```
 - `vim markdown` 的浏览器配置
 ```
