@@ -130,7 +130,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ```
 sudo vim /etc/passwd
 ```
-> 把第一行的 `/bin/bash` 改成 `/bin/zsh` ，这个是 `root` 用户的。
+> 把第一行的 `/bin/bash` 改成 `/usr/bin/zsh` ，这个是 `root` 用户的。
 - 安装 `powerlevel10k` 主题
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
