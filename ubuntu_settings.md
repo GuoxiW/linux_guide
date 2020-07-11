@@ -298,14 +298,9 @@ sudo apt install open-vm-tools-desktop
 ```
 ## 16. windows terminal 的 wsl 操作
 - 查看安装的 wsl
-
 	wslconfig /list
-
 - 设置默认子系统
-
 	wslconfig /setdefault Name
-
 - 打开特定子系统
-
 	ubuntu1804.exe
 	ubuntu2004.exe
