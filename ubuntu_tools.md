@@ -272,6 +272,13 @@ sudo add-apt-repository ppa:jonathonf/vim
 sudo apt-get update
 sudo apt-get install vim
 ```
+
+- ubuntu 18.04 中 `viminfo` 报错
+```
+mkdir -p ~/.vim/files/info
+set viminfo=%,<800,'10,/50,:100,h,f0,n~/.vim/files/info/viminfo
+```
+
 ### 5. 字体美化(放大)
 - 在 `terminal` 中选择 `preferences` 
 - 更改字体为 `Source Code Pro for Powerline Medium` ,　字号为 `20` 
