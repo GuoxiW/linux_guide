@@ -394,5 +394,5 @@ ln -s /home/guoxi/pycharm-2020.2/bin/pycharm.sh .bin/py
 
 ```
 #bashrc与zshrc
-export PATH="/home/wang/.bin:$PATH"
+export PATH="/home/guoxi/.bin:$PATH"
 ```
