@@ -396,3 +396,7 @@ ln -s /home/guoxi/pycharm-2020.2/bin/pycharm.sh .bin/py
 #bashrc与zshrc
 export PATH="/home/guoxi/.bin:$PATH"
 ```
+- 文件夹也可以软链接
+```
+ln -s /data1/ data
+```
