@@ -80,3 +80,9 @@ sudo vim /etc/docker/daemon.json
 :w !sudo tee %
 :q!
 ```
+
+## 10. 命令行记录错误信息
+```
+# 以docker中使用的方法为例
+sudo docker-compose logs -f oiptestnet >> log.txt 
+```
