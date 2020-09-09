@@ -86,3 +86,10 @@ sudo vim /etc/docker/daemon.json
 # 以docker中使用的方法为例
 sudo docker-compose logs -f oiptestnet >> log.txt 
 ```
+
+## 11.github中删除已经同步的.idea文件夹
+```
+git rm -r --cached .idea  #--cached不会把本地的.idea删除
+git commit -m 'delete .idea dir'
+git push -u origin master
+```
