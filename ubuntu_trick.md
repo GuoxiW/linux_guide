@@ -96,6 +96,10 @@ git push -u origin master
 
 ## 12. vscode快捷键
 - 跳转回之前的代码：
-    alt + 左方向键
+```
+alt + 左方向键
+```
 - 字体大小修改：
-    ctrl -/+ 
+```
+ctrl -/+ 
+```
